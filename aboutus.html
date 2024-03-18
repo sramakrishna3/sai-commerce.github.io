@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>sai About us</title>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body class="body">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                <img src="images/sai-removebg-preview.png" alt="" / width="125px">
+            </a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html" style="color: aqua;"><b>   Home</b></a></li>
+                    <li><a href="products.html" style="color: aqua;"><b>Products</b></a></li>
+                    <li><a href="aboutus.html" style="color: aqua;"><b>About us</b></a></li>
+                    <li><a href="contacts.html" style="color: aqua;"><b>Contacts</b></a></li>
+                    <li><a href="account.html" style="color: aqua;"><b>Account</b></a></li>
+                </ul>
+            </nav>
+            <a  href="cart.html">
+
+                <img src="images/cart.png" alt="" width="30px" height="30px" />
+            </a>
+            <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">
+            <h1>About us</h1>
+            <p class="p2">Hello and welcome to <i class="i">sai shop</i>, the place to find the best clothes,electronics for every taste and occasion.
+                We thoroughly check the quality of our goods, working only with reliable suppliers so that you only receive the best
+                quality product.</p> <br>
+           
+                <p class="p2">We at <i class="i">sai shop</i> believe in high quality and exceptional customer service. But most importantly, we believe shopping 
+                is a right, not a luxury, so we strive to deliver the best products at the most affordableprices, and ship them to you
+                 regardless of where you are located.
+               </p>
+        </div>
+        <div class="col-2">
+            <img src="images/image_about-removebg-preview.png" alt="" />
+        </div>
+    </div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Download App for Andriod and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/sai-removebg-preview.png" alt="">
+                <p>Our purpose is to give the best quality product to the customer and bring them back and make them
+                    happy.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright &copy; 2020 - www.nilara.com</p>
+    </div>
+</div>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
